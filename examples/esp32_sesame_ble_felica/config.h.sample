@@ -1,0 +1,17 @@
+
+//個別化マスター鍵 24byte。:区切りで24個のhex値を指定してください。
+const std::string masterKey = "ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff";
+
+// sesame関連
+const std::string userId = "メールアドレス";
+const std::string password = "Android公式アプリ内からハックして取得するパスワード";
+const uint16_t lockMinAngle = 10;
+const uint16_t lockMaxAngle = 270;
+
+// 下記はoption。指定したほうがscanがskipできるため早くなる。
+const std::string address = "bleのaddress";
+const unsigned char manufacturerDataMacData[] = {}; // {0x00,0x00...}のように配列で指定する
+
+// wifi関連
+#define WIFI_SSID "your wifi ssid"
+#define WIFI_PASSWORD "your wifi pass"
